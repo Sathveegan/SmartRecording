@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.smartrecording.smartrecording.ManualActivity"
+    android:gravity="center_vertical"
+    android:layout_marginLeft="10dp"
+    android:orientation="vertical">
+
+
+    <Button
+        android:id="@+id/btnRecord"
+        android:layout_width="166dp"
+        android:layout_height="68dp"
+        android:backgroundTint="@android:color/holo_red_dark"
+        android:text="RECORD"
+        android:textColor="@android:color/background_light"
+        android:textSize="18sp" />
+
+    <Button
+        android:id="@+id/btnStopRecord"
+        android:layout_width="166dp"
+        android:layout_height="68dp"
+        android:text="Stop"
+        android:textSize="18sp" />
+
+    <Button
+        android:id="@+id/btnPlay"
+        android:layout_marginTop="200dp"
+        android:layout_width="276dp"
+        android:layout_height="65dp"
+        android:text="Play Recorded File"
+        android:textSize="18sp" />
+
+    <Button
+        android:id="@+id/btnStop"
+        android:layout_width="276dp"
+        android:layout_height="65dp"
+        android:text="Stop Recorded File"
+        android:textSize="18sp" />
+
+    <RadioGroup
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+</LinearLayout>

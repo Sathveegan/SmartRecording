@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">Smart Recording</string>
+    <string name="hostname">192.168.8.100:3000</string>
+</resources>
